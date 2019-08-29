@@ -51,7 +51,7 @@ const petSite = (petsArray) => {
     let domString = ''; 
     // 5a.This variable is going to allow print out the div I want below.
     for (let i = 0; i < petsArray.length; i++) {
-    //2a. Created for loop that is going to loop through my pets array to retrieve objects
+    //2a. Created for loop that is going to loop through my pets array to retrieve objects.
     domString += `
         <div class = "card">
             <h2>${pets.name}</h2>
