@@ -44,6 +44,12 @@ const pets = [
 }
 ]
 
+// 1b. Created function that will that will be called in the function below. The parameter toPrint is going to passing my div of objects after each of the loops within another div called pet-zone to house all divs. 
+
+const printToDom =(toPrint, divId) => {
+    document.getElementById(divId).innerHTML = toPrint;
+};
+
 
 //1a. Create an arrow function that will pass my array of pies
 
