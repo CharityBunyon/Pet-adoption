@@ -1,26 +1,94 @@
-body {
-    background-color: beige;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  background-color: #fafafa;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 0px;
+  padding: 40px 0px;;
+  background-color: #128ced;
+
+}
+
+.buttons {
+  display:flex;
+  flex-wrap: wrap;
+  flex-basis:auto;
+  justify-content: center;
+  margin: 10px;
+  color: white;
+}
+
+#all {
+  background-color: #f5a623;
+  color: #fff;
+}
+
+#dog {
+  background-color: #1c9daa;
+  color: #fff;
+} 
+
+#cat {
+  background-color: #ef6c00;
+  color: #fff;
+}
+
+#dino {
+  background-color: #32cd32;
+  color: #fff;
+}
+
+#dino, #all, #cat , #dog {
+  margin: 40px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  box-shadow: 2px rgba(0,0,0,0.6);
+};
+
 #pet-zone {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-  }
-  
-  .card {
-    width: 30%;
-    margin-top: 10px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: lightcoral;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 5px rgba(0,0,0,0.6);
+}
+
+.card h3 {
+  margin: 10px 0px;
+}
+
+.card img {
+  height: 300px;
+  width: 300px;
+  align-items: center;
+
+}
+
+.card p {
+    font-size: 14px;
     margin-bottom: 10px;
-    background-color: #fff;
-    color: black;
     text-align: center;
-    font-weight: bold;
-  }
-  
-  .card img {
-    height: 200px;
-    width: 200px;
-  }
+}
+
+
