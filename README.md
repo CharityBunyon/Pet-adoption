@@ -4,9 +4,9 @@
 Use this application to see all pets that are up for adoption. The user should be able to see each type of pt by clicking on a specific button.
 
 ## Screenshots
-![Pet Adoption Preview 1]()
+![Pet Adoption Preview 1](https://raw.githubusercontent.com/CharityBunyon/Pet-adoption/master/screenshots/SS1.png)
 
-![Pet Adoption Preview 2]()
+
 
 ## How to run
 * Clone down this project 
